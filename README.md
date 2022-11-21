@@ -1,3 +1,9 @@
+## Task 0: Please Complete the Module Feedback Form
+
+Before you start, please consider completing the module feedback form. Your feedback genuinley helps us to develop the module, so we'd love to hear what you thought and what we can keep, develop, improve, explain differently add etc. 
+
+https://forms.gle/Cb6cd6Zb6UrkHBkc7
+
 # Practical 8.1: Lighting a Haunted House
 
 In the last lecture, you learned some techniques for simulating realistic lighting in Interactive Environments and how to implement them in Unity. In this practical, you are going to use these techniques to implement the lighting for a horror scene.
