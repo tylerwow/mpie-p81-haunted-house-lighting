@@ -11,7 +11,7 @@ By the end of this practical you will be able to:
 - Create reflections using Reflection Probes
 - Manipulate the parameters of lights from scripts
 
-To get started, create a git repository in yout account based on this template and clone it onto your machine.
+To get started, create a git repository in your account based on this template and clone it onto your machine.
 
 The Unity project in the repo contains a scene from an interactive horror movie, in which the viewer finds an abandoned house in the woods. As it stands, the scene and the house it contains don’t really have the aesthetic of a horror movie (i.e. dark and scary)! In this practical class, you will fix this using a range of different lighting techniques.
 
@@ -30,17 +30,17 @@ In this task, you should allow the user to explore the house by adding appropria
 Complete the task by enabling diffuse reflections on all objects that don’t move within the house, using Unity’s pre-computed GI approach.
 
 ## Task 3: Adding a Flashlight
-In this task, you should add a flashlight (i.e. a torch) to the ‘FPSController’ game object. This flashlight should be turned on an off by pressing the ‘F’ key on the keyboard. Tip: recalling what you were taught about transforms and coordinate systems should help you implement the flashlight more easily.
+In this task, you should add a flashlight (i.e. a torch) to the ‘FPSController’ game object. This flashlight should be turned on and off by pressing the ‘F’ key on the keyboard. Tip: recalling what you were taught about transforms and coordinate systems should help you implement the flashlight more easily.
 
-You may notice that some of the lights that you set up previously disappear when your flashlight is turned on. This is the result of Unity trying to increase rendering efficiency. You can turn off this automatic optimization, and make all of the lights appear at once, by setting each light’s ‘Render Mode’ to ‘Important’ rather than ‘Auto’.
+You may notice that some of the lights that you set up previously disappear when your flashlight is turned on. This is the result of Unity trying to increase rendering efficiency. You can turn off this automatic optimization, and make all the lights appear at once, by setting each light’s ‘Render Mode’ to ‘Important’ rather than ‘Auto’.
 
 ## Task 4: Shiny Candle Holders
-Manipulate the ‘Smoothness’ and ‘Metallic’ material parameters of the ‘CandleStand’ material (found in the ‘PracticalAssets/Materials’ folder) to make the candleholders shiny. Additionally, explore how to use a reflection probe to make the surface of the candleholders show a reflection of the room (note: the effect will only be very slight due to their small size). 
+Manipulate the ‘Smoothness’ and ‘Metallic’ material parameters of the ‘CandleStand’ material (found in the ‘PracticalAssets/Materials’ folder) to make the candle-holders shiny. Additionally, explore how to use a reflection probe to make the surface of the candle-holders show a reflection of the room (note: the effect will only be very slight due to their small size). 
 
 ## Task 5: Flickering Candles and Sheet Lightening
 Using a combination of light sources and accompanying scripts, add the following effects to your scene:
 
-- A flickering effect in the candle lights
+- A flickering effect in the candle-lights
 - Bright sheet lightening, which illuminates the scene periodically
 
 When implementing the flickering candles, you may wish to use the PerlinNoise method to create a realistic looking effect (see http://docs.unity3d.com/ScriptReference/Mathf.PerlinNoise.html).
